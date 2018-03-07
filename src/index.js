@@ -5,9 +5,7 @@ const defaultOptions = {
   capture: false
 };
 const supportedPassiveTypes = [
-  'scroll', 'wheel',
-  'touchstart', 'touchmove', 'touchenter', 'touchend', 'touchleave',
-  'mouseout', 'mouseleave', 'mouseup', 'mousedown', 'mousemove', 'mouseenter', 'mousewheel', 'mouseover'
+  'touchstart', 'touchmove', 'touchenter', 'touchend', 'touchleave'
 ];
 const getDefaultPassiveOption = (passive, eventName) => {
   if (passive !== undefined) return passive;
